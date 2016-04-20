@@ -1,0 +1,25 @@
+@import 'basscss/basscss';
+
+body, h1, h2, h3, h4, h5, h6{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: underline;
+}
+
+.none, .none:hover{
+  text-decoration: none;
+}
+
+.bg-Nick{
+  background-image: linear-gradient(-90deg, #00E5FF, #00B2FF);
+}
+
+.bg-John{
+  background-image: linear-gradient(-90deg, #FF6200, #FF9500);
+}
+
+blockquote{
+  background: rgba(238, 238, 238, 1);
+}

@@ -1,0 +1,23 @@
+<div class="px2 overflow-hidden">
+
+  <h2 class="small gray caps center h4 mb4">Most Recent</h2>
+<% @tmessages.reverse_each do |tmessage| %>
+  <div id="<%= tmessage.id %>" class="mb3 col col-12 md-col-8 clearfix
+  <% if tmessage.user =='Nick' %>col-right<% end %>
+  <% if tmessage.user =='John' %>col-left<% end %>
+  ">
+
+    <div class="bg-<%= tmessage.user %> rounded px2 py1">
+      <p class="white h1 mb0">
+        <%= tmessage.text %>
+      </p>
+    </div>
+    <span class="small caps mt1
+      <% if tmessage.user =='John' %>left<% end %>
+      <% if tmessage.user =='Nick' %>right<% end %>"
+    >
+      <a class="mr1 none" href="#<%= tmessage.id %>">&#x1F517;</a><%= tmessage.created_at.strftime("%b %e %Y ") %>
+    </span>
+  </div>
+<% end %>
+</div>
