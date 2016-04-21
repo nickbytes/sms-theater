@@ -11,11 +11,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <header class="p2">
-    <h1 class="h0 h0-responsive mb0 m0 center">Touchbase.xxx</h1>
-  </header>
+
 
 <%= yield %>
+
+<footer class="p2 fixed bottom-0 right-0 left-0 bg-black">
+  <h1 class="mb0 left m0 h4 caps"><a href="#" class="white text-decoration-none">Touchbase.xxx <span>Vol. 1</span></a></h1>
+
+  <nav class="right">
+    <a href="#" class="white">/about</a>
+  </nav>
+</footer>
 
 </body>
 </html>
