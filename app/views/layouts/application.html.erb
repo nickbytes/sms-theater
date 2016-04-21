@@ -5,7 +5,7 @@
   <meta title="author" content="Nick Beattie">
   <meta title="description" content="Touchbase.xxx">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>const Churn</title>
+  <title>Touchbase.xxx</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -15,12 +15,15 @@
 
 <%= yield %>
 
-<footer class="p2 fixed bottom-0 right-0 left-0 bg-black">
-  <h1 class="mb0 left m0 h4 caps"><a href="#" class="white text-decoration-none">Touchbase.xxx <span>Vol. 1</span></a></h1>
+<footer class="p2 fixed top-0 right-0 left-0 bg-black">
+  <div class="left">
+    <h1 class="mb0 m0 h4 caps"><a href="#" class="white text-decoration-none">Touchbase.xxx – <span>Vol. 1</span></a></h1>
+    <p class="white mb0">Month-long candid text conversations focused loosely by industry or interest.</p>
+  </div>
 
-  <nav class="right">
-    <a href="#" class="white">/about</a>
-  </nav>
+  <!-- <nav class="right">
+    <a href="/about" class="white">/about</a>
+  </nav> -->
 </footer>
 
 </body>

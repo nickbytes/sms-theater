@@ -1,5 +1,9 @@
 @import 'basscss/basscss';
 
+body{
+  background-color: rgba(253, 253, 251, 1);
+}
+
 body, h1, h2, h3, h4, h5, h6{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -13,13 +17,11 @@ a{
 }
 
 .bg-Nick{
-  //background-image: linear-gradient(-90deg, #00E5FF, #00B2FF);
-  background-color: rgba(232, 82, 116, 1);
+  background-color: rgba(0, 0, 255, 1);
 }
 
 .bg-John{
-  //background-image: linear-gradient(-90deg, #FF6200, #FF9500);
-  background-color: rgba(61, 19, 62, 1);
+  background-color: rgba(255, 0, 0, 1);
 }
 
 .max-width-2{
@@ -28,6 +30,10 @@ a{
 
 .max-width-3{
   max-width: 48rem;
+}
+
+.rounded-2{
+  border-radius: 10px;
 }
 
 .clear-both{
