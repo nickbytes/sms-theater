@@ -20,8 +20,7 @@ class TmessagesController < ApplicationController
       @tmessage.user = 'Nick'
       @tmessage.save
 
-      send_sms "+16149060263", params[:Body]
-      # send_sms "+17202035148", params[:Body]
+      send_sms "+17202035148", params[:Body]
     end
 
     if params[:From] == "+17202035148"
