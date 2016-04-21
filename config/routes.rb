@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get '/about' => 'about#index'
+  # get '/about' => 'about#index'
 
   post '/api/v1' => 'tmessages#create'
 

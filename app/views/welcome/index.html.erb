@@ -1,12 +1,12 @@
-<div class="px2 overflow-hidden py3">
+<div class="px2 overflow-hidden py3 mt4">
   <% @tmessages.each do |tmessage| %>
     <div id="<%= tmessage.id %>" class="mb3 max-width-3 clearfix
     <% if tmessage.user =='Nick' %>right clear-both<% end %>
     <% if tmessage.user =='John' %>left clear-both<% end %>
     ">
 
-      <div class="bg-<%= tmessage.user %> rounded-2 px2 py1">
-        <p class="white h1 mb0">
+      <div class="bg-<%= tmessage.user %> px2 py1">
+        <p class="h1 mb0">
           <%= tmessage.text %>
         </p>
       </div>
