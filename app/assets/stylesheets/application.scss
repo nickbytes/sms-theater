@@ -18,21 +18,29 @@ a{
 
 .bg-Nick{
   background-color: rgba(229, 229, 234, 1);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-left-radius: 22px;
 
 }
 
 .bg-John{
   background-color: rgba(229, 229, 234, 1);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
 }
 
 .bg-aquiz{
   background-color: rgba(85, 192, 165, 1);
+}
+
+.aquiz{
+  color: rgba(85, 192, 165, 1);
+}
+
+.bg-gray-2{
+  background-color: rgba(229, 229, 234, 1);
 }
 
 .max-width-2{
@@ -45,6 +53,42 @@ a{
 
 .rounded-2{
   border-radius: 10px;
+}
+
+.border-top-left-radius{
+  border-top-left-radius: 16px;
+}
+
+.border-top-right-radius{
+  border-top-right-radius: 16px;
+}
+
+.border-bottom-left-radius{
+  border-bottom-left-radius: 16px;
+}
+
+.border-bottom-right-radius{
+  border-bottom-right-radius: 16px;
+}
+
+.border-top-left-radius-2{
+  border-top-left-radius: 22px;
+}
+
+.border-top-right-radius-2{
+  border-top-right-radius: 22px;
+}
+
+.border-bottom-left-radius-2{
+  border-bottom-left-radius: 22px;
+}
+
+.border-bottom-right-radius-2{
+  border-bottom-right-radius: 22px;
+}
+
+.nudge-down-2{
+  margin-bottom: -2px;
 }
 
 .clear-both{

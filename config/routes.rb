@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
 
-  # get '/about' => 'about#index'
-
   post '/api/v1' => 'tmessages#create'
 
-  root 'welcome#index'
+  get '/vol1' => 'welcome#index'
+  root 'welcome#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

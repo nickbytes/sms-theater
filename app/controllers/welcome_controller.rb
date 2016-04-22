@@ -8,4 +8,7 @@ class WelcomeController < ApplicationController
   def index
     @tmessages = Tmessage.all
   end
+
+  def home
+  end
 end
