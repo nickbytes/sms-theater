@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   post '/api/v1' => 'tmessages#create'
 
-  get '/vol1' => 'welcome#index'
+  get '/vol1' => 'volume#index'
   root 'welcome#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
