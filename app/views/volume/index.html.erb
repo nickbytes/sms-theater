@@ -1,10 +1,12 @@
 <header class="p2 fixed top-0 right-0 left-0 bg-aquiz">
   <div class="left">
-    <h1 class="mb0 m0 h4 caps"><a href="/" class="white text-decoration-none">Touchbase.xxx – <span>Vol. 1</span></a></h1>
+    <h1 class="mb0 m0 h4 caps"><a href="/" class="white text-decoration-none">sms.theater – <span>Act 1</span></a></h1>
   </div>
 </header>
 
-<div class="px2 overflow-hidden py3 mt3">
+<h2 class="center mb0 mt4 py2">Oldest</h2>
+
+<div class="px2 overflow-hidden py2 mt0">
   <% @tmessages.each do |tmessage| %>
     <div id="<%= tmessage.id %>" class="mb3 max-width-3 clearfix
     <% if tmessage.user =='Nick' %>right clear-both<% end %>
@@ -31,10 +33,15 @@
 
 </div>
 
-<h2 id="scrollhelp" class="center">Most Recent</h2>
+<h2 class="center mt0">Most Recent</h2>
 
 <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0"><defs>
 <svg id="link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="currentcolor">
   <path d="M0 16 A8 8 0 0 1 8 8 L14 8 A8 8 0 0 1 22 16 L18 16 A4 4 0 0 0 14 12 L8 12 A4 4 0 0 0 4 16 A4 4 0 0 0 8 20 L10 24 L8 24 A8 8 0 0 1 0 16z M22 8 L24 8 A8 8 0 0 1 32 16 A8 8 0 0 1 24 24 L18 24 A8 8 0 0 1 10 16 L14 16 A4 4 0 0 0 18 20 L24 20 A4 4 0 0 0 28 16 A4 4 0 0 0 24 12z"></path>
 </svg>
 </defs></svg>
+
+<%= javascript_tag do %>
+  $('document').ready(function(){
+  });
+<% end %>
